@@ -1,0 +1,31 @@
+
+.headerPoTe{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: start;
+    position: sticky;
+    top: 0;
+    .logoPoTe{
+        width: 200px;
+        cursor: pointer;
+    }
+}
+.containerPoTe{
+    display: flex;
+    flex-direction: column;
+    color: #F7EFEF;
+    justify-items: center;
+    align-items: center;
+    max-width: 800px;
+    line-height: 1.5;
+    text-align: justify;
+    h1{
+        padding-bottom: 20px;
+    }
+    .parrafo-estilo{
+        font-weight: 800;
+    }
+}
+
+

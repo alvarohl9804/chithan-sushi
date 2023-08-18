@@ -1,0 +1,35 @@
+/*  */
+/* CONTACTO */
+/*  */
+main {
+    .containerContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #F7EFEF;
+        .detallesContacto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h5{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-top: #d3caa3 1px solid;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .horarios{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2{
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
