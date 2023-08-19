@@ -18,7 +18,7 @@ footer {
         }
         .footerTermsAndConditions {
             font-size: 13px;
-            color: #F7EFEF;
+            color: $text-color;
             padding: 0;
             a {
                 /* height: 5px;  */
@@ -30,7 +30,7 @@ footer {
                 flex-direction: column;
                 padding: 1px 10px;
                 text-decoration: none;
-                color: #F7EFEF;
+                color: $text-color;
             }
         }
     }

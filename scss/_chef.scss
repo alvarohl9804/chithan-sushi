@@ -7,7 +7,7 @@ main{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        color: #F7EFEF;
+        color: $text-color;
         .chef{
             padding: 0px 20px;
             .imagenChef{

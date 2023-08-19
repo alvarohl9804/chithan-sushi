@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* VARIABLES */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit&family=Roboto+Condensed:wght@300&display=swap");
@@ -17,7 +18,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #F7EFEF;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
   padding: 0% 20px;
 }
 a:hover {
-  color: white;
+  color: #F7EFEF;
   text-decoration: underline;
 }
 
@@ -60,7 +61,7 @@ header .navbar ul li a {
   padding: 0% 20px;
 }
 header .navbar ul li a:hover {
-  color: white;
+  color: #F7EFEF;
   text-decoration: underline;
 }
 
@@ -118,7 +119,7 @@ main .containerMain .containerSlogan {
   text-align: center;
 }
 main .containerMain h1 {
-  color: white;
+  color: #F7EFEF;
 }
 main .containerMain .buttonContainer {
   display: flex;
@@ -286,7 +287,7 @@ main .containerContacto .detallesContacto {
 main .containerContacto h5 {
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: #d3caa3 1px solid;
+  border-top: #d3caa3 2px solid;
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -390,7 +391,7 @@ main .containerSobreNoso p {
 /* Diseño responsive */
 /*  */
 .nav-link {
-  color: white;
+  color: #F7EFEF;
 }
 
 .custom-list {
@@ -492,7 +493,9 @@ main .containerSobreNoso p {
 }
 
 .navbar-toggler {
-  border: 0.1px solid white;
+  border: 0.1px solid #F7EFEF;
 }
+
+/* VARIABLES */
 
 /*# sourceMappingURL=styles.css.map */

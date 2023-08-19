@@ -6,7 +6,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: #F7EFEF;
+        color: $text-color;
         .detallesContacto{
             display: flex;
             flex-direction: column;
@@ -15,7 +15,7 @@ main {
         h5{
             padding-top: 10px;
             padding-bottom: 10px;
-            border-top: #d3caa3 1px solid;
+            border-top: $border 2px solid;
             width: 300px;
             display: flex;
             flex-direction: column;

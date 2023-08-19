@@ -22,12 +22,12 @@ main {
         margin-top: 20px;
         align-items: center;
         padding: 20px;
-        border: 10px inset #596c55;
+        border: 10px inset $border-reserva;
         border-radius: 5px;
         .formulario {
             margin-bottom: 20px;
             .classForm {
-                color: #F7EFEF;
+                color: $text-color;
                 margin-bottom: 5px;
                 font-size: 19px;
                 font-weight: bolder;
@@ -38,10 +38,10 @@ main {
             input[type="date"] {
                 width: 100%;
                 padding: px;
-                border: 3px outset #676e3a;
+                border: 3px outset $border-reserva-interior;
                 border-radius: 3px;
                 margin-bottom: 10px;
-                color: #F7EFEF;
+                color: $text-color;
             }
         }
         .divBotones {
@@ -51,8 +51,8 @@ main {
                 padding: 10px 20px;
                 border: none;
                 border-radius: 3px;
-                background-color: #D7633E;
-                color: #F7EFEF;
+                background-color: $background-button;
+                color: $text-color;
                 font-weight: 500;
                 margin-right: 10px;
             }
