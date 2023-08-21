@@ -103,7 +103,10 @@ footer .containerFooter .footerTermsAndConditions a {
   color: #F7EFEF;
 }
 
-main .containerMain {
+/*  */
+/* MAIN */
+/*  */
+.containerMain {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,23 +115,24 @@ main .containerMain {
   text-transform: uppercase;
   padding: 40px 0px;
 }
-main .containerMain .containerSlogan {
+.containerMain .containerSlogan {
   padding: 50px 0px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-main .containerMain h1 {
-  color: #F7EFEF;
+.containerMain .containerSlogan h1 {
+  color: white;
 }
-main .containerMain .buttonContainer {
+.containerMain .buttonContainer {
   display: flex;
   flex-direction: row;
 }
-main .containerMain .buttonContainer div {
+.containerMain .buttonContainer .eachContainer {
   padding: 40px 20px;
 }
-main .containerMain .buttonContainer div .buttonReserva {
+
+.buttonReserva {
   padding: 0 10px;
   background-color: #D7633E;
   border-radius: 5px;
@@ -140,7 +144,8 @@ main .containerMain .buttonContainer div .buttonReserva {
   font-size: 50px;
   color: #F7EFEF;
 }
-main .containerMain .buttonContainer div .buttonCarta {
+
+.buttonCarta {
   width: 200px;
   padding: 0 35px;
   background-color: #D7633E;
@@ -415,7 +420,7 @@ main .containerSobreNoso p {
     width: auto;
   }
   .buttonReserva {
-    padding: 0 22px;
+    padding: 0 20px;
     background-color: #D7633E;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -450,7 +455,7 @@ main .containerSobreNoso p {
     width: 240px;
   }
   .imgMaki {
-    width: 200px;
+    width: 100px;
   }
   .tittleDish {
     font-size: 20px;

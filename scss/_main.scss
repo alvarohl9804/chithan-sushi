@@ -1,56 +1,61 @@
-main{
-    .containerMain {
+/*  */
+/* MAIN */
+/*  */
+.containerMain{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+    padding: 40px 0px;
+    .containerSlogan{
+        padding: 50px 0px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Outfit', sans-serif;
-        text-transform: uppercase;
-        padding: 40px 0px;
-        .containerSlogan {
-            padding: 50px 0px;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
+        text-align: center;
+        h1{
+            color: white;
         }
-        h1 {
-            color: $text-color;
-        }
-        .buttonContainer {
-            display: flex;
-            flex-direction: row;
-        
-            div {
-                padding: 40px 20px;
-                .buttonReserva {
-                    padding: 0 10px;
-                    background-color: $background-button;
-                    border-radius: 5px;
-                    -webkit-border-radius: 5px;
-                    -moz-border-radius: 5px;
-                    -ms-border-radius: 5px;
-                    -o-border-radius: 5px;
-                    font-weight: 800;
-                    font-size: 50px;
-                    color: $text-color;
-                }
-                .buttonCarta {
-                    width: 200px;
-                    padding: 0 35px;
-                    background-color: $background-button;
-                    border-radius: 5px;
-                    -webkit-border-radius: 5px;
-                    -moz-border-radius: 5px;
-                    -ms-border-radius: 5px;
-                    -o-border-radius: 5px;
-                    font-weight: 800;
-                    font-size: 50px;
-                    color: $text-color;
-                }
-            }
+    }
+    .buttonContainer {
+        display: flex;
+        flex-direction: row;
+        .eachContainer{
+            padding: 40px 20px;
         }
     }
 }
+.buttonReserva{
+    padding: 0 10px;
+    background-color: #D7633E;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: 800;
+    font-size: 50px;
+    color: #F7EFEF;
+}
+
+.buttonCarta{
+    width: 200px;
+    padding: 0 35px;
+    background-color: #D7633E;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: 800;
+    font-size: 50px;
+    color: #F7EFEF;
+}
+
+
+
+
 
 
 
