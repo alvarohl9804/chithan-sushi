@@ -1,39 +1,41 @@
 /*  */
 /* CHEF */
 /*  */
-main{
-    .containerChef{
-        padding: 50px 0px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        color: $text-color;
-        .chef{
-            padding: 0px 20px;
-            .imagenChef{
-                width:290px;
-            }
-        }
-        .dedicatoria {
-            min-height: 383.70px;
-            max-width: 500px;
-            h2{
-                padding-bottom: 40px;
-            }
-            p{
-                padding-bottom: 50px;
-                font-size: 15px;
-            }
-            h3{
-                padding-bottom: 15px;
-                font-size: 25px;
-            }
-            .imagenFirma{
-                width: 100px;
-            }
-        }
-    }    
+.containerChef {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $text-color;
 }
 
+.chef {
+    padding: 0px 20px;
 
+    .imagenChef {
+        width: 290px;
+    }
+}
 
+.dedicatoria {
+    min-height: 383.70px;
+    max-width: 500px;
+
+    h2 {
+        padding-bottom: 40px;
+    }
+
+    p {
+        padding-bottom: 50px;
+        font-size: 15px;
+    }
+
+    h3 {
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .imagenFirma {
+        width: 100px;
+    }
+}

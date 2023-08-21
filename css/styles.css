@@ -171,14 +171,15 @@ footer .containerFooter .footerTermsAndConditions a {
 /*  */
 /* MAIN PAGINAS*/
 /* */
-main .containerCarta {
+.containerCarta {
   padding: 50px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
-main .containerCarta .dish {
+
+.dish {
   display: flex;
   flex-direction: row;
   font-family: "Outfit", sans-serif;
@@ -187,7 +188,7 @@ main .containerCarta .dish {
   padding: 10px 0px;
   width: 430px;
 }
-main .containerCarta .dish .imgMaki {
+.dish .dishImg .imgMaki {
   width: 200px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -195,17 +196,17 @@ main .containerCarta .dish .imgMaki {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-main .containerCarta .dish .dishDetail {
+.dish .dishDetail {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 0px 4px;
 }
-main .containerCarta .dish .dishDetail h2 h6 {
+.dish .dishDetail h2 h6 {
   margin: auto;
 }
-main .containerCarta .dish .dishDetail h3 {
+.dish .dishDetail h3 {
   margin: 0px 0px;
   background-color: #D7633E;
   border-radius: 5px;
@@ -311,35 +312,37 @@ main .containerContacto h2 {
 /*  */
 /* CHEF */
 /*  */
-main .containerChef {
+.containerChef {
   padding: 50px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: #F7EFEF;
 }
-main .containerChef .chef {
+
+.chef {
   padding: 0px 20px;
 }
-main .containerChef .chef .imagenChef {
+.chef .imagenChef {
   width: 290px;
 }
-main .containerChef .dedicatoria {
+
+.dedicatoria {
   min-height: 383.7px;
   max-width: 500px;
 }
-main .containerChef .dedicatoria h2 {
+.dedicatoria h2 {
   padding-bottom: 40px;
 }
-main .containerChef .dedicatoria p {
+.dedicatoria p {
   padding-bottom: 50px;
   font-size: 15px;
 }
-main .containerChef .dedicatoria h3 {
+.dedicatoria h3 {
   padding-bottom: 15px;
   font-size: 25px;
 }
-main .containerChef .dedicatoria .imagenFirma {
+.dedicatoria .imagenFirma {
   width: 100px;
 }
 

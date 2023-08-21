@@ -10,53 +10,56 @@
 /*  */
 /* MAIN PAGINAS*/
 /* */
-main {
-    .containerCarta {
-        padding: 50px 0px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+.containerCarta {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 
-        .dish {
-            display: flex;
-            flex-direction: row;
-            font-family: 'Outfit', sans-serif;
-            color: $text-color;
-            font-size: 25px;
-            padding: 10px 0px;
-            width: 430px;
+}
 
-            .imgMaki {
-                width: 200px;
-                border-radius: 10px;
-                -webkit-border-radius: 10px;
-                -moz-border-radius: 10px;
-                -ms-border-radius: 10px;
-                -o-border-radius: 10px;
-            }
 
-            .dishDetail {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                padding: 0px 4px;
+.dish {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Outfit', sans-serif;
+    color: $text-color;
+    font-size: 25px;
+    padding: 10px 0px;
+    width: 430px;
 
-                h2 h6 {
-                    margin: auto;
-                }
-
-                h3 {
-                    margin: 0px 0px;
-                    background-color: $background-button;
-                    border-radius: 5px;
-                    -webkit-border-radius: 5px;
-                    -moz-border-radius: 5px;
-                    -ms-border-radius: 5px;
-                    -o-border-radius: 5px;
-                }
-            }
+    .dishImg {
+        .imgMaki {
+            width: 200px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
         }
+    }
+
+    .dishDetail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 4px;
+
+        h2 h6 {
+            margin: auto;
+        }
+
+        h3 {
+            margin: 0px 0px;
+            background-color: $background-button;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+
     }
 }
