@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CARTA</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" type="image/png" href="../img/icono-removebg-preview.png">
 </head>
+
 <body>
     <header class="row m-0 p-0">
         <nav class="navbar navbar-expand-lg">
@@ -27,11 +30,44 @@
                         <li class="nav-item"><a href="../pages/contacto.html">CONTACTO</a></li>
                         <li class="nav-item"><a href="../pages/chef.html">CHEF</a></li>
                         <li class="nav-item"><a href="../pages/sobre_nosotros.html">SOBRE NOSOTROS</a></li>
-                    </ul>
+                        <img class="carrito_imagen" src="../img/carrito.png" alt="Carrito de Compras"
+                            id="carrito_imagen">
+                        <div class="count-products">
+                            <span id="contador-productos">0</span>
+                        </div>
                 </div>
+
+                <!-- AQUI BORRE LO DEL TXT -->
+
+
+                <div class="container-cart-products hidden-cart">
+                    <div class="row-product">
+                        <div class="card-product">
+                            <div class="info-cart-product">
+                                <span class="cantidad-producto-carrito">1</span>
+                                <span class="titulo-producto-carrito">Tekatsu</span>
+                                <span class="precio-producto-carrito">S/.20.00</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="icon-close">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="cart-total">
+                        <span class="total">Total:</span>
+                        <span class="total-pagar">S/.20.00</span>
+                    </div>
+                </div>
+                </ul>
+            </div>
             </div>
         </nav>
     </header>
+
+
+
     <main>
         <div class="containerCarta">
             <div class="dish">
@@ -39,9 +75,11 @@
                     <img class="imgMaki" src="../img/3.jpg" alt="tekatsu">
                 </div>
                 <div class="dishDetail">
-                    <h2 class="tittleDish">Tekatsu</>
-                    <h6 class="content">Palta-Pollo-Coronado con <br> tekatsu-Salsa Teriyaki</>
+                    <h2 class="tittleDish">Tekatsu</h2>
+                    <h6 class="content">Palta-Pollo-Coronado con <br> tekatsu-Salsa Teriyaki</h6>
                     <h3 class="price">S/.20.00</h3>
+
+                    <button class="btn_compra" id="btn_compra">Agregar a carrito</button>
                 </div>
             </div>
             <div class="dish">
@@ -49,9 +87,11 @@
                     <img class="imgMaki" src="../img/4.jpg" alt="theKing">
                 </div>
                 <div class="dishDetail">
-                    <h2 class="tittleDish">The King</>
-                    <h6 class="content">Queso Crema-Pollo-Coronado <br>con Guacamole y Tiras de <br> Wantan- Salsa Teriyaki</>
+                    <h2 class="tittleDish">The King</h2>
+                    <h6 class="content">Queso Crema-Pollo-Coronado <br>con Guacamole y Tiras de <br> Wantan- Salsa
+                        Teriyaki</h6>
                     <h3 class="price">S/.20.00</h3>
+                    <button class="btn_compra" id="btn_compra">Agregar a carrito</button>
                 </div>
             </div>
             <div class="dish">
@@ -59,9 +99,10 @@
                     <img class="imgMaki" src="../img/5.jpg" alt="acevichado">
                 </div>
                 <div class="dishDetail">
-                    <h2 class="tittleDish">Acevichado</>
-                    <h6 class="content">Palta-Langostino-Cobertura <br>Pescado del día <br>-Salsa Acevichada</>
+                    <h2 class="tittleDish">Acevichado</h2>
+                    <h6 class="content">Palta-Langostino-Cobertura <br>Pescado del día <br>-Salsa Acevichada</h6>
                     <h3 class="price">S/.20.00</h3>
+                    <button class="btn_compra" id="btn_compra">Agregar a carrito</button>
                 </div>
             </div>
             <div class="dish">
@@ -69,9 +110,10 @@
                     <img class="imgMaki" src="../img/6.jpg" alt="handRoll">
                 </div>
                 <div class="dishDetail">
-                    <h2 class="tittleDish">Hand Roll</>
-                    <h6 class="content">Palta-Pollo-Queso Crema</>
+                    <h2 class="tittleDish">Hand Roll</h2>
+                    <h6 class="content">Palta-Pollo-Queso Crema</h6>
                     <h3 class="price">S/.18.00</h3>
+                    <button class="btn_compra" id="btn_compra">Agregar a carrito</button>
                 </div>
             </div>
             <div class="dish">
@@ -79,9 +121,10 @@
                     <img class="imgMaki" src="../img/7.jpg" alt="california">
                 </div>
                 <div class="dishDetail">
-                    <h2 class="tittleDish">California</>
-                    <h6 class="content">Queso Crema- Palta-<br>Langostino Cobertura Ajonjoli</>
+                    <h2 class="tittleDish">California</h2>
+                    <h6 class="content">Queso Crema- Palta-<br>Langostino Cobertura Ajonjoli</h6>
                     <h3 class="price">S/.20.00</h3>
+                    <button class="btn_compra" id="btn_compra">Agregar a carrito</button>
                 </div>
             </div>
             <div class="dish">
@@ -89,9 +132,10 @@
                     <img class="imgMaki" src="../img/8.jpg" alt="avocado">
                 </div>
                 <div class="dishDetail">
-                    <h2 class="tittleDish">Avocado</>
-                    <h6 class="content">Langostino-Queso Crema-<br>Cobertura palta-Ajonjoli</>
+                    <h2 class="tittleDish">Avocado</h2>
+                    <h6 class="content">Langostino-Queso Crema-<br>Cobertura palta-Ajonjoli</h6>
                     <h3 class="price">S/.20.00</h3>
+                    <button class="btn_compra" id="btn_compra">Agregar a carrito</button>
                 </div>
             </div>
 
@@ -121,6 +165,10 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../main.js"></script>
 </body>
+
 </html>
