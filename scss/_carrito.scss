@@ -37,85 +37,8 @@
         opacity:0.7;
     }
 }
-.inicador{
-    color: white ;
-}
-
-// .contenido_carrito{
-//     position: absolute;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     padding: 0px 0px;
-//     top: 80px;
-//     width: 300px;
-//     visibility: hidden;
-//     z-index: 1;
-//     box-sizing: border-box;
-//     background-color: white;
-//     border-radius: 5px;
-//     -webkit-border-radius: 5px;
-//     -moz-border-radius: 5px;
-//     -ms-border-radius: 5px;
-//     -o-border-radius: 5px;
-// }
-// .card_product, .segunda_parte {
-//     background-color: white; 
-//     color: balck;
-// }
-// .card_product{
-//     display: flex;
-//     flex-direction: row;
-//     border-radius: 5px;
-//     align-items:center;
-//     text-align: center;
-//     justify-content: space-between;
-//     gap: 40px;
-//     padding: 10px 10px 0px 10px;
-//     -webkit-border-radius: 5px;
-//     -moz-border-radius: 5px;
-//     -ms-border-radius: 5px;
-//     -o-border-radius: 5px;
-// }
-// .segunda_parte{
-//     display: flex;
-//     flex-direction: row;
-//     align-items:center;
-//     text-align: center;
-//     border-radius: 5px;
-//     -webkit-border-radius: 5px;
-//     -moz-border-radius: 5px;
-//     -ms-border-radius: 5px;
-//     -o-border-radius: 5px;
-// }
-// .cantidad_producto, .pedido_producto, .precio_producto, .icono_x, .total_producto, .precio_total_producto{
-//     background-color: white;
-//     display: flex;
-//     align-items:center;
-//     text-align: center;
-// }
-
-// .icono_x{
-//     width: 19px;
-//     align-items: center;
-//     justify-content: center;
-//     transition: opacity 0.1s ease;
-//     -webkit-transition: opacity 0.1s ease;
-//     -moz-transition: opacity 0.1s ease;
-//     -ms-transition: opacity 0.1s ease;
-//     -o-transition: opacity 0.1s ease;
-//     &:hover
-// {
-//         cursor: pointer;
-//         color: $background-button;
-//         opacity:0.3;
-//     }
-// }
 
 
-
-//EL EJEMPLO
 
 .container-cart-products{
     position: absolute;
